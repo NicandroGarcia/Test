@@ -19,7 +19,10 @@ namespace FormularioPrueba
 
         private void btn_Hola_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola Mundo");
+            MessageBox.Show("Hola Mundo","Hola mundo",MessageBoxButtons.OK,MessageBoxIcon.Exclamation); 
+
+
+
         }
     }
 }
